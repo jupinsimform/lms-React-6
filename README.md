@@ -9,6 +9,14 @@
 - [Production Mode](https://practical-6-production.netlify.app/)
 - [Staging Mode](https://practical-6-staging.netlify.app/)
 
+## optimize code
+
+- `React.lazy()` and `Suspense` work together to enable lazy loading of components. When you use `React.lazy()` to import a component, you can then wrap it in a `Suspense` component, which will handle displaying a loading indicator or placeholder content while the component is being loaded.
+
+- `@types/lodash` : `lodash` is a popular JavaScript utility library that provides a wide range of useful functions for manipulating data, handling asynchronous operations, and more. One of the most commonly used functions in `lodash` is `debounce`, which is used to limit the rate at which a function can be called.I used debounce for window resizing.
+
+- `react-loading-skeleton` : `react-loading-skeleton` is a React component library that provides a simple way to create loading placeholders or `skeleton` screens for your applications. It is particularly useful for scenarios where `data is being fetched asynchronously` and the user needs to wait for the data to load.
+
 ## Setup for Environment variable
 
 - Vite uses dotenv to load additional environment variables from the following files in your environment directory:
