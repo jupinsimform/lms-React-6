@@ -13,7 +13,6 @@ import { setHoverdata } from "../redux/features/hoverdataSlice";
 import { User, MainComponentProps } from "../types/Types";
 import SkeletonCard from "./Skeleton";
 import Lock from "../assets/lock.svg";
-import { FadeLoader } from "react-spinners";
 import Trash from "../assets/trash.svg";
 
 const CardContainerLazy = lazy(() => import("../containers/CardContainer"));
